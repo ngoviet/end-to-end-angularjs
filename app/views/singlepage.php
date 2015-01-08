@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="/css/style.css">
   <script src="/js/angular.js"></script>
   <script src="/js/angular-sanitize.js"></script>
+  <script src="/bower_components/restangular/dist/restangular.js"/></script>
   <script src="/js/underscore.js"></script>
   <script src="/js/app.js"></script>
   <script>
@@ -17,7 +18,7 @@
 </head>
 <body>
 
-  <div class="row">
+  <div class="container">
     <div class="large-12">
       <h1>End to End with Angular JS</h1>
       <div class="row">

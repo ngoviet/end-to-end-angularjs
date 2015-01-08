@@ -1,4 +1,4 @@
-var app = angular.module("app", ['ngSanitize']);
+var app = angular.module("app", ['ngSanitize', 'restangular']);
 
 app.config(function($httpProvider) {
 
@@ -25,7 +25,7 @@ app.config(function($httpProvider) {
 
 });
 
-app.config(function($routeProvider) {
+app.config(function($routeProvider, RestangularProvider) {
 
   $routeProvider.when('/login', {
     templateUrl: 'templates/login.html',
@@ -37,15 +37,7 @@ app.config(function($routeProvider) {
     controller: 'HomeController'
   });
 
-  $routeProvider.when('/cities', {
-    templateUrl: 'templates/cities.html',
-    controller: 'CitiesController',
-    resolve: {
-      cities : function(CityService) {
-        return CityService.get();
-      }
-    }
-  });
+
 
   $routeProvider.when('/books', {
     templateUrl: 'templates/books.html',
@@ -57,9 +49,57 @@ app.config(function($routeProvider) {
     }
   });
 
+  $routeProvider.when('/cities', {
+    templateUrl: 'templates/cities.html',
+    controller: 'CitiesController'
+    //,
+    //resolve: {
+    //  city: function(Restangular, $scope){
+    //    return Restangular.one('cities', $scope.cityData.id).get();
+    //  }
+    //}
+  });
+
   $routeProvider.otherwise({ redirectTo: '/login' });
 
+  RestangularProvider.setBaseUrl('/api');
 });
+
+app.controller("CitiesController", function($scope, Restangular) {
+  $scope.cities = Restangular.all("cities").getList().$object;
+  //var original = city;
+  //$scope.city = Restangular.copy(original);
+  $scope.cityData = {};
+
+  $scope.Id = '';
+  $scope.name = '';
+  $scope.code = '';
+
+  $scope.edit = true;
+  $scope.error = false;
+  $scope.incomplete = false;
+
+  $scope.editCity = function(id){
+    if(id == 'new'){
+      $scope.edit = true;
+      $scope.incomplete = true;
+      $scope.cityData.name = '';
+      $scope.cityData.code = '';
+    } else {
+      $scope.edit = false;
+      $scope.cityData.id 	= $scope.cities[id - 1].id;
+      $scope.cityData.name = $scope.cities[id - 1].name;
+      $scope.cityData.code = $scope.cities[id - 1].code;
+
+
+    }
+  };
+
+  //$scope.saveCity = function(){
+  //  $scope.city.put();
+  //}
+});
+
 
 app.run(function($rootScope, $location, AuthenticationService, FlashService) {
   var routesThatRequireAuth = ['/home'];
@@ -70,14 +110,6 @@ app.run(function($rootScope, $location, AuthenticationService, FlashService) {
       FlashService.show("Please log in to continue.");
     }
   });
-});
-
-app.factory("CityService", function($http){
-  return {
-    get: function(){
-      return $http.get('/api/cities');
-    }
-  };
 });
 
 app.factory("BookService", function($http) {
@@ -164,9 +196,8 @@ app.controller("LoginController", function($scope, $location, AuthenticationServ
   };
 });
 
-app.controller("CitiesController", function($scope, cities) {
-  $scope.cities = cities.data;
-});
+
+
 
 app.controller("BooksController", function($scope, books) {
   $scope.books = books.data;
