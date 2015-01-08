@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f44fbc84-e10e-42fb-b018-2680550ec176" name="Default" comment="Merge https://github.com/ngoviet/end-to-end-angularjs&#10;&#10;Conflicts:&#10;&#9;.gitignore&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Application.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Application.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_ide_helper.php" afterPath="$PROJECT_DIR$/_ide_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_1.json" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_1.md" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_1.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_1.txt" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_1.xml" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_2.json" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_2.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_2.md" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_2.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_2.txt" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_2.xml" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_astext1.txt" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_astext1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_astext2.txt" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_astext2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_asxml1.txt" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_asxml1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_asxml2.txt" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_asxml2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_gethelp.txt" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_gethelp.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_run1.txt" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_run1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_run2.txt" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/application_run2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_astext.txt" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_astext.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_asxml.txt" afterPath="$PROJECT_DIR$/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_asxml.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/end-to-end-angularjs.iml" afterPath="$PROJECT_DIR$/.idea/end-to-end-angularjs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+    <list default="true" id="f44fbc84-e10e-42fb-b018-2680550ec176" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="end-to-end-angularjs.iws" />
@@ -75,7 +50,7 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2162162" vertical-offset="2064" max-vertical-offset="2960">
+            <state vertical-scroll-proportion="1.2141652" vertical-offset="2064" max-vertical-offset="2960">
               <caret line="174" column="23" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
               <folding />
             </state>
@@ -333,6 +308,13 @@
       <option name="number" value="Default" />
       <updated>1420605385225</updated>
     </task>
+    <task id="LOCAL-00001" summary="Merge https://github.com/ngoviet/end-to-end-angularjs&#10;&#10;Conflicts:&#10;&#9;.gitignore&#10;">
+      <created>1420688277018</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1420688277018</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -359,8 +341,8 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32795697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32792208" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2965368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -561,7 +543,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2162162" vertical-offset="2064" max-vertical-offset="2960">
+        <state vertical-scroll-proportion="1.2141652" vertical-offset="2064" max-vertical-offset="2960">
           <caret line="174" column="23" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
           <folding />
         </state>
