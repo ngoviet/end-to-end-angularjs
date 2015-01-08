@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{Node.js v0.10.32 Core Modules, angular-ui-DefinitelyTyped, angular-ui-bootstrap-DefinitelyTyped, angularjs-DefinitelyTyped, express-DefinitelyTyped, gruntjs-DefinitelyTyped, jquery-DefinitelyTyped, node-DefinitelyTyped, requirejs-DefinitelyTyped}" />
+  </component>
+</project>
