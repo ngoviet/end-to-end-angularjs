@@ -90,8 +90,6 @@ app.controller("CitiesController", function($scope, Restangular) {
       $scope.cityData.id 	= $scope.cities[id - 1].id;
       $scope.cityData.name = $scope.cities[id - 1].name;
       $scope.cityData.code = $scope.cities[id - 1].code;
-
-
     }
   };
 
