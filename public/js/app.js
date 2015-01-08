@@ -37,6 +37,16 @@ app.config(function($routeProvider) {
     controller: 'HomeController'
   });
 
+  $routeProvider.when('/cities', {
+    templateUrl: 'templates/cities.html',
+    controller: 'CitiesController',
+    resolve: {
+      cities : function(CityService) {
+        return CityService.get();
+      }
+    }
+  });
+
   $routeProvider.when('/books', {
     templateUrl: 'templates/books.html',
     controller: 'BooksController',
@@ -60,6 +70,14 @@ app.run(function($rootScope, $location, AuthenticationService, FlashService) {
       FlashService.show("Please log in to continue.");
     }
   });
+});
+
+app.factory("CityService", function($http){
+  return {
+    get: function(){
+      return $http.get('/api/cities');
+    }
+  };
 });
 
 app.factory("BookService", function($http) {
@@ -144,6 +162,10 @@ app.controller("LoginController", function($scope, $location, AuthenticationServ
       $location.path('/home');
     });
   };
+});
+
+app.controller("CitiesController", function($scope, cities) {
+  $scope.cities = cities.data;
 });
 
 app.controller("BooksController", function($scope, books) {
